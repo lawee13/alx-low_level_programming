@@ -3,7 +3,7 @@
  * main - print a line of code using the puts
  *
  * return: 0
- *\
+ */
  int main(void)
  {
    put("/"Programming is like building a multilingual puzzle");
