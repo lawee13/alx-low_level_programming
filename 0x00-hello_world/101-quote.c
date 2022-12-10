@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
 * main - _description
-* Return 1;
+* Return: 1
 */
 int main(void)
 {
