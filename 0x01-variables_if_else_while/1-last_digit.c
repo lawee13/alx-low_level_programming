@@ -4,7 +4,7 @@
 /**
  * main - print out last six digits.
  * Return:0
- * */
+ */
 int main(void)
 {
 int n;
