@@ -1,24 +1,18 @@
-#include 'main.h'
+#include <stdio.h>
 /**
- * largest_number - checks for the largest of there numbers.
- * @a: the first interger to consider in the check
- * @b: tge second integer to be checked
- * @c: the third integer to be checked
- * Return: largest number
+ * main - cause an infinite loop
+ * Return: 0
  */
-int largest_number(int a, int b, int c)
+int main(void)
 {
-	if (a >= b && a >= c)
-	{
-		largest = a;
-	}
-	else if (b >= a && b >= c)
-	{
-		largest = b;
-	}
-	else
-	}
-		largest = c;
-	}
-	return (largest);
+	int i;
+
+	printf("Infinite loop incoming :(\n")
+	i = 0;
+	while (i < 10)
+	/*{*/
+	/*putchar(i)*/
+	/*}*/
+	printf("Infinite loop avoided! \\o/\n")
+		return (0);
 }
