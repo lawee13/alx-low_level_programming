@@ -1,8 +1,9 @@
-#include 'main.h'
+#include "main.h"
 /**
  * main - check for an inter positive or negative
  * Return:0
  */
+
 int main(void)
 {
 	int i;
