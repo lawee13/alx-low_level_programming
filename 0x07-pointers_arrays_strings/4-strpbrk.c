@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *strpbrk - entry point
- * *@s: input
- * *@accept: input
- * *Return: alwaye o success
+ * strpbrk - entry point
+ * @s: input
+ * @accept: input
+ * Return: alwaye o success
  */
 char *_strpbrk(char *s, char *accept)
 {
