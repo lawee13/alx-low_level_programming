@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- * print_strings - prints strings passed to the function separated by separators
+ * print_strings - prints strings passed to the function separ
  * @separator: a string that is use to separate strings
  * @n: number of unnamed parameters
  * Return: always o
