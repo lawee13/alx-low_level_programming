@@ -15,7 +15,7 @@ int op_add (int a, int b)
 
 /**
  * op_sub - ...
- * @a: ... 
+ * @a: ...
  * @b: ...
  * Return: ...
  */
@@ -33,7 +33,7 @@ int op_sub(int a, int b)
 
 int op_mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
 
 /**
