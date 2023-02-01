@@ -1,20 +1,21 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * pop_listint - deletes and returns the head nodes data
- * @head: this is my struct
- * Return: return to head nodes data(n)
+ * pop_listint - deletes the head
+ * @head: a double pointer
+ * Return: empty
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *phead;
-	int result;
+	listint_t *start;
+	int n;
 
-	if (*head == NULL)
+	if (head == NULL || *head == NULL)
 		return (0);
-	result = (*head)->n;
-	phead - *head;
-	*head = (*head)->next;
-	free(phead);
-	return (result);
+	start = *head;
+	*head = start->next;
+	n = start->n;
+	free(start);
+	return (n);
 }
